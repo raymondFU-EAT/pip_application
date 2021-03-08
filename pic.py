@@ -1,4 +1,4 @@
-from PIL import Image
+from PIL import Image #從PIL檔入Imag
 import os #導入OS系統
 for file in os.listdir('orig'): # 利用系統把資料夾orig中的檔案一個一個讀出
 	if file.endswith('.jpg'): # 如果檔名的尾部為.jpg檔
